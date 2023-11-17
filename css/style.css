@@ -692,6 +692,9 @@ a {
 .body-page.activPopup {
     position: fixed;
 }
+.banner-text-wraper ol li:before {
+    margin-right: 7px;
+}
 .footer-form .form-control-name, .footer-form .form-control-phone {
     max-width: 200px;
 }

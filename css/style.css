@@ -662,6 +662,7 @@ a {
     padding: 10px 20px 10px 20px;
     cursor: pointer;
 }
+.container-decorations 
 @media (max-width: 1159px) {
 .article-seo {
     flex-wrap: wrap;
@@ -835,10 +836,5 @@ a {
 }
 .btn-close {
     display: none;
-}
-}
-@media (max-width: 574px) {
-.container-decorations img {
-    max-width: calc( (100vw - 280px)/(1920 - 280) * (816 - 400) + 400px);
 }
 }

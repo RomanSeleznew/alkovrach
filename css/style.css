@@ -324,7 +324,7 @@ a {
     border: none;
 }
 .btn-to-send,
-.mobile-form-page .btn-to-send a {
+.mobile-form-page .btn-to-send {
     display: flex;
     max-width: 300px;
     width: 100%;

@@ -837,3 +837,8 @@ a {
     display: none;
 }
 }
+@media (max-width: 574px) {
+.container-decorations img {
+    max-width: calc( (100vw - 280px)/(1920 - 280) * (816 - 400) + 400px);
+}
+}

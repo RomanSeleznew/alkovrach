@@ -323,7 +323,8 @@ a {
     background: var(--white, #FFF);
     border: none;
 }
-.btn-to-send {
+.btn-to-send,
+.mobile-form-page .btn-to-send a {
     display: flex;
     max-width: 300px;
     width: 100%;

@@ -323,8 +323,7 @@ a {
     background: var(--white, #FFF);
     border: none;
 }
-.btn-to-send,
-.mobile-form-page .btn-to-send {
+.btn-to-send {
     display: flex;
     max-width: 300px;
     width: 100%;
@@ -337,7 +336,7 @@ a {
     box-shadow: 0px 4px 15px 0px rgba(8, 99, 0, 0.15);
     border: none;
     color: var(--white, #FFF);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -526,7 +525,7 @@ a {
     row-gap: 25px;
     flex-direction: column;
     width: 100%;
-    max-width: 270px;
+    max-width: 249px;
 }
 .btn.button-call {
     background: var(--bgGreen, #F6FDF6);
@@ -698,6 +697,15 @@ a {
 }
 .footer-form .form-control-message {
     max-width: 200px;
+}
+.btn-to-send a {
+    color: var(--white, #FFF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.64px;
 }
 .container-header.activNavbarHeader {
     display: flex;

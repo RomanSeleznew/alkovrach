@@ -525,7 +525,7 @@ a {
     row-gap: 25px;
     flex-direction: column;
     width: 100%;
-    max-width: 249px;
+    max-width: 252px;
 }
 .btn.button-call {
     background: var(--bgGreen, #F6FDF6);
